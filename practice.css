@@ -1,0 +1,97 @@
+/* .memeGenerator{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+ .memeGenerator img{
+    height: 430px;
+    object-fit: cover;
+ }
+
+ .memeGenerator .memebtn{
+
+    padding:8px 20px;
+    border: none;
+    border-left: 4px solid#222 ;
+    border-right: 4px solid #fff;
+    margin: 24px 0;
+    font-size: 20px;
+    color: #f64d4d;
+    background: #fff;
+    cursor: pointer;
+    transition: all 400ms;
+ }
+
+ .memeGenerator .memebtn:hover{
+
+    padding: 8px 36px;
+    border-left: 8px solid #222;
+    border-right: 8px solid #222;
+    letter-spacing: 3px;
+ }
+
+ .memeGenerator .meme-author{
+    margin: 8px;
+ } */
+
+ .meme-generator {
+   font-family: "Roboto", sans-serif;
+   text-align: center;
+ }
+ 
+ .meme-generator img {
+   height: 430px;
+   object-fit: cover;
+ }
+ 
+ .meme-generator .generate-meme-btn {
+   padding: 8px 20px;
+   border: 4px solid#222;
+   border-radius: 25%;
+   position: fixed;
+   bottom: 40px;
+   right: 400px;
+   border-left: 4px solid #222;
+   border-right: 4px solid #222;
+   margin: 24px 0;
+   font-size: 20px;
+   color: #f64d4d;
+   background: #fff;
+   cursor: pointer;
+   transition: all 400ms ease;
+ }
+ 
+ .meme-generator label{
+   font-family: "Roboto", sans-serif;
+   text-align: center;
+   border: 4px solid#222;
+   border-radius: 25%;
+   position: fixed;
+   bottom: 40px;
+   left: 400px;
+   padding-left: 5px;
+   border-left: 4px solid #222;
+   border-right: 4px solid #222;
+   margin: 24px 0;
+   font-size: 20px;
+   color: #f64d4d;
+   background: #fff;
+   cursor: pointer;
+   transition: all 400ms ease;
+ }
+
+ .meme-generator label select{
+   margin: 2px;
+   padding: 10px 10px;
+   border-radius: 50%;
+ }
+ .meme-generator .generate-meme-btn:hover {
+   padding: 8px 36px;
+   border-left: 8px solid #222;
+   border-right: 8px solid #222;
+   letter-spacing: 3px;
+ }
+ 
+ .meme-generator .meme-author {
+   margin: 8px;
+ }
